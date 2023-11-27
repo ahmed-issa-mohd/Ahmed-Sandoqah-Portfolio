@@ -1,0 +1,10 @@
+npm init 
+npm i node-sass
+npm run sass
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  }
+
+  npm run sass
