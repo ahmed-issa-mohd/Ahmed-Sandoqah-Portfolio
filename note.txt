@@ -1,10 +1,16 @@
-npm init 
-npm i node-sass
-npm run sass
-
-"scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+  1.create dist folder [index.html]
+  2.create scss folder [main.scss]
+  3.install sass: 
+    A-npm init 
+    B-npm i node-sass
+    C- "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass -w scss/ -o dist/css --recursive"
   }
+    D-npm run sass
 
-  npm run sass
+  4.Github
+      touch .gitignore [add node module]
+      git init
+      git add . 
+      git commit -m "Initial workflow setup" 
